@@ -1,0 +1,11 @@
+*{
+    box-setting: border-box;
+}
+
+body {
+    background-color: blueviolet;
+}
+
+h1{
+    color: violet
+}
