@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blogg-layout</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <!--header-->
+    <header class="header">
+        <h1>Välkommen!</h1>
+    </header>
+
+    <!--Navigation-->
+    <nav class="nav"> 
+            
+            <div><a href="menu.html">Meny</a></div>
+            <div><a href="index.html">Hem</a></div>
+            <div><a href="Galleri.html">Galleri</a></div>
+            <div><a href="priser.html">Priser</a></div>
+            <div><a href="about.html">Om oss</a></div>
+            <div><a href="contact.html">Kontakt</a></div>
+        
+    </nav>
+
+    <!--Main content-->
+    <div class="main-content">
+
+                <!--Sidebar-->
+      <aside class="sidebar">Alternativ
+         <ul>
+            <li class="buttons"><a href="#">Alternativ 1</a></li>
+            <li class="buttons"><a href="#">Alternativ 2</a></li>
+            <li class="buttons"><a href="#">Alternativ 3</a></li>
+            <li class="buttons"><a href="#">Alternativ 4</a></li>
+            <li class="buttons"><a href="#">Alternativ 5</a></li>
+         </ul>
+      </aside>
+
+      <!--Content-->    
+      <main class="content">
+        <h2>Logga in på websidan</h2>
+
+        <!--main-->
+        <div class="main">
+
+            <label for="email">E-post:</label><br>
+            <input type="email" id="email" placeholder="Ange e-postadress">
+            <br>
+            <br>
+
+            <label for="password">Lösenord:</label><br>
+            <input type="password" id="password" placeholder="Ange lösenord"><br>
+            <br>
+            <p><input type="checkbox"> Kom ihåg mig</p>
+            <br>
+
+            <button class="login">Logga in</button>
+            <button class="register">Registrera dig</button>
+            <br>
+            <br>
+
+            <a  id="forgot-password" href="forgot-password">Glömt lösenordet?</a>
+        </div>
+      </main>
+    </div>
+
+    <!--Footer-->
+    <footer class="footer">
+        <p>© 2025 Websida</p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
