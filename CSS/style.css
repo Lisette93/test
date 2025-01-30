@@ -31,19 +31,47 @@
 
   /* Navigation */
   .nav {
-    display: flex;
-    justify-content: space-evenly;
+ 
     background-color: #8193b8;
     color:#283652;
     padding: 15px;
-    text-align: flex-end;
   }
-  
 
+  .nav-lista{
+    display: flex;
+    list-style:none;
+    justify-content: space-evenly;
 
+  }
+
+  .nav-alternativ {
+    background-color: #b6c2db;
+    width: 10%;
+    border-radius: 45px;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .nav-alternativ:hover {
+    background-color: #283652;
+
+  }
+
+  .nav-alternativ a {
+    text-decoration: none;
+    color: #283652;
+    display: block; 
+  }
+
+  .nav-alternativ:hover a {
+    color:#b6c2db;
+
+  }
   nav a {
     text-decoration: none;
     color: #283652;
+    display:block;
   }
 
     nav a:hover {
@@ -115,12 +143,27 @@
      margin: 0 auto;
     padding: 30px;
 
+    #email{
+      border-radius: 90px;
+      border: 2px solid #8193b8;
+      padding: 8px;
+      margin: 5px;
+
+    }
+
+    #password {
+      border-radius: 90px;
+      border: 2px solid #8193b8;
+      padding: 8px;
+      margin: 5px;
+
+    }
     /*login and register buttons*/
     .login, .register {
         background-color: #8193b8;
         color:#283652;
         padding: 10px;
-        margin: 8px;
+        margin: 5px;
         border:2px solid #283652;
         border-radius: 90px;
     }
